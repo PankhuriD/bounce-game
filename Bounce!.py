@@ -2,8 +2,6 @@ from tkinter import*
 import random
 import time
 
-lives = 3
-
 class Ball:
     def __init__(self, canvas, color):
         self.canvas = canvas
